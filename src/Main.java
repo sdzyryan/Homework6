@@ -50,15 +50,17 @@ public class Main {
     public static void task6 () {
         System.out.println("Задача 6");
         for (int i = 7; i <= 98; i = i + 7) {
-            System.out.println(i);
+            System.out.print(i + " ");
         }
+        System.out.println();
     }
 
     public static void task7 () {
         System.out.println("Задача 7");
         for (int i = 1; i <= 512; i = i * 2) {
-            System.out.println(i);
+            System.out.print(i + " ");
         }
+        System.out.println();
     }
 
     public static void task8 () {
@@ -74,8 +76,8 @@ public class Main {
     public static void task9 () {
         System.out.println("Задача 9");
 
-        int cash = 29_000;
-        int capital = 0;
+        double cash = 29_000;
+        double capital = 0;
 
         for (int i = 1; i <= 12; i++) {
             capital = capital + capital/100;
